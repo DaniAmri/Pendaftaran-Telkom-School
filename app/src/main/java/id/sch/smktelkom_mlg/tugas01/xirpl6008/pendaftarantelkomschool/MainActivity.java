@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -68,6 +69,15 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         if (cb6.isChecked()) Minat += cb6.getText() + "\n";
         if (Minat.length() == startien) Minat += "Anda Belum Memilih";
         tvminat.setText(Minat);
+    }
+
+    private void doSiap() {
+        String hasil = null;
+        if (rgJurusan.getCheckedRadioButtonId() != -1) {
+            RadioButton rb = (RadioButton) findViewById(rgJurusan.getCheckedRadioButtonId());
+            hasil = rb.getText().toString();
+        }
+        tvradio.setText("Jurusan Anda Adalah " + hasil);
     }
 
 
