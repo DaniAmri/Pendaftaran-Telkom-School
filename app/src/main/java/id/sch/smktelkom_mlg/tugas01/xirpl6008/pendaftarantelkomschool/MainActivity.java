@@ -60,5 +60,5 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         tvspiner.setText("Asal Anda Dari " + asal);
     }
 
-   
+
 }
