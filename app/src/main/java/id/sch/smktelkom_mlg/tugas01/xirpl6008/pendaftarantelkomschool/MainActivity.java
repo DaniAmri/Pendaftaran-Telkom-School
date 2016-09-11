@@ -60,5 +60,15 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         tvspiner.setText("Asal Anda Dari " + asal);
     }
 
+    private void doProses() {
+        String Minat = "Peminatan ";
+        int startien = Minat.length();
+        if (cb4.isChecked()) Minat += cb4.getText() + "\n";
+        if (cb5.isChecked()) Minat += cb5.getText() + "\n";
+        if (cb6.isChecked()) Minat += cb6.getText() + "\n";
+        if (Minat.length() == startien) Minat += "Anda Belum Memilih";
+        tvminat.setText(Minat);
+    }
+
 
 }
