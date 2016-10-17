@@ -21,7 +21,7 @@ Deteksi Kesalahan:
 <br>
 
 ### B. (LINK DOWNLOAD)
-<p>[Link APK](https://drive.google.com/file/d/0B89qdpkmHmOPcE9IWFI0eXdVclk/view)</p>
+[!Link APK](https://drive.google.com/file/d/0B89qdpkmHmOPcE9IWFI0eXdVclk/view)
 
 ### C.(DATA DIRI)
 - Nama          : Chamadani F. Amri
